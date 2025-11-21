@@ -17,9 +17,8 @@ export default function Hero() {
           <h3 className="hero-greeting">👋 Hey, I'm</h3>
           <h1 className="hero-title">
             <span className="gradient-text">Piyush</span>
-            <br />
-            Full Stack Developer
           </h1>
+          <h2 className="hero-tagline">Full Stack Engineer & AI Enthusiast</h2>
           <p className="hero-subtitle">
             Crafting beautiful, scalable web experiences
           </p>

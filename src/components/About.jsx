@@ -2,11 +2,11 @@ import React from 'react';
 import './About.css';
 
 export default function About() {
-  const skills = [
-    { category: 'Frontend', items: ['React', 'JavaScript', 'HTML/CSS', 'Tailwind', 'Vite'] },
-    { category: 'Backend', items: ['Node.js', 'Express', 'MongoDB', 'PostgreSQL', 'REST APIs'] },
-    { category: 'Tools & Platforms', items: ['Git', 'Docker', 'AWS', 'Vercel', 'Firebase'] }
-  ];
+  // const skills = [
+  //   { category: 'Frontend', items: ['React', 'JavaScript', 'HTML/CSS', 'Tailwind', 'Vite'] },
+  //   { category: 'Backend', items: ['Node.js', 'Express', 'MongoDB', 'PostgreSQL', 'REST APIs'] },
+  //   { category: 'Tools & Platforms', items: ['Git', 'Docker', 'AWS', 'Vercel', 'Firebase'] }
+  // ];
 
   return (
     <section id="about" className="about">
@@ -26,14 +26,10 @@ export default function About() {
               technical excellence, user-centric design, and collaborative problem-solving. 
               I'm always eager to learn new technologies and tackle challenging problems.
             </p>
-            <p>
-              When I'm not coding, you'll find me exploring emerging tech trends, 
-              contributing to open-source projects, or sharing knowledge with the developer community.
-            </p>
           </div>
 
           <div className="skills-grid">
-            {skills.map((skillGroup, index) => (
+            {/* {skills.map((skillGroup, index) => (
               <div key={index} className="skill-category">
                 <h3>{skillGroup.category}</h3>
                 <div className="skill-tags">
@@ -42,7 +38,10 @@ export default function About() {
                   ))}
                 </div>
               </div>
-            ))}
+            ))} */}
+            <div className='profile-pic'>
+              <img src="/profile.png" alt="Piyush" className="profile-image" />
+            </div>
           </div>
         </div>
       </div>

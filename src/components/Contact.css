@@ -5,11 +5,18 @@
 }
 
 .contact-content {
-  display: grid;
+  /* display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 60px;
   max-width: 1200px;
   margin: 0 auto;
+  align-items: center; */
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+  /* align-items: center; */
 }
 
 .contact-intro {
@@ -17,6 +24,7 @@
   color: #b0b9ff;
   line-height: 1.8;
   margin-bottom: 40px;
+  text-align: center;
 }
 
 .contact-methods {

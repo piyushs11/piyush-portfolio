@@ -32,6 +32,13 @@
   color: white;
 }
 
+.hero-tagline {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: white;
+}
+
 .gradient-text {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   -webkit-background-clip: text;

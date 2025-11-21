@@ -4,25 +4,18 @@ import './Experience.css';
 export default function Experience() {
   const experiences = [
     {
-      title: 'Senior Full Stack Developer',
-      company: 'Tech Innovation Labs',
-      duration: '2022 - Present',
-      description: 'Leading development of scalable web applications, mentoring junior developers, and implementing modern architecture patterns.',
-      highlights: ['React & Node.js', 'Team Leadership', 'AWS Architecture']
+      title: 'Full-stack Web Engineer ',
+      company: 'Launch Ventures',
+      duration: '2023 - 2025',
+      description: 'Built a scalable investment-management platform using React, Node.js, and PostgreSQL, migrating the firm from Retool and delivering faster performance, advanced reporting modules, and optimized trade processing. Also improved a task-tracking platform with better UI, encrypted data handling, and data analytics in Python that accelerated decision-making from days to hours.',
+      highlights: ['React', 'Node.js', 'PostgreSQL', 'Python', 'Data Analytics', 'AWS']
     },
     {
-      title: 'Full Stack Developer',
-      company: 'Digital Solutions Inc',
-      duration: '2020 - 2022',
-      description: 'Developed and maintained full-stack applications serving 100K+ users, optimized performance, and improved system reliability.',
-      highlights: ['Full-stack Development', 'Database Optimization', 'CI/CD Pipeline']
-    },
-    {
-      title: 'Junior Web Developer',
-      company: 'StartUp Ventures',
-      duration: '2019 - 2020',
-      description: 'Built responsive web applications, collaborated with design team, and learned best practices in modern web development.',
-      highlights: ['Frontend Development', 'API Integration', 'Responsive Design']
+      title: 'Machine Learning Intern',
+      company: 'Capgemini',
+      duration: '2022 - 2022',
+      description: 'Developed and containerized YOLO-based computer-vision services on Microsoft Azure, automating model training, testing, and deployment while building Flask APIs with validated endpoints and incorporating a feedback loop to improve detection accuracy. Managed and annotated large image and video datasets using CVAT, resulting in a 10% boost in overall model performance.',
+      highlights: ['Computer Vision', 'Azure', 'CVAT']
     }
   ];
 

@@ -5,47 +5,40 @@ export default function Projects() {
 
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'Full-stack e-commerce solution with real-time inventory, payment integration, and admin dashboard.',
-      tech: ['React', 'Node.js', 'MongoDB', 'Stripe API', 'Redux'],
+      title: 'Multimodal Job Interview Analyzer',
+      description: 'Developed an integrated platform utilizing CNN models for video and Random Forest classifiers for audio, applying late-fusion strategies to deliver holistic candidate feedback in mock interviews and resume screening scenarios.',
+      tech: ['Python', 'TensorFlow', 'OpenCV', 'CNN', 'Random Forest', 'Flask'],
       link: '#',
-      image: '🛍️'
+      image: '👩🏻‍💻'
     },
     {
-      title: 'Real-time Chat App',
-      description: 'Feature-rich messaging application with real-time notifications, file sharing, and user authentication.',
-      tech: ['React', 'Socket.io', 'Express', 'PostgreSQL', 'JWT'],
-      link: '#',
+      title: 'Hate Speech Detection Using ML',
+      description: 'Collected and cleaned 30,000 tweets using Tweepy, built multiple NLP classifiers, and achieved a top accuracy of 94.11% with Logistic Regression for hate-speech detection.',
+      tech: ['Python', 'NLP', 'Logistic Regression', 'Scikit-learn', 'Tweepy'],
+      link: 'https://github.com/piyushs11/Hate-Speech-Detection-using-Machine-Learning-Techniques',
       image: '💬'
     },
     {
-      title: 'AI Task Manager',
-      description: 'Intelligent task management system with AI-powered suggestions, priority sorting, and analytics dashboard.',
-      tech: ['React', 'AI API', 'Firebase', 'Tailwind CSS', 'D3.js'],
-      link: '#',
-      image: '✓'
+      title: 'Criminal Record Management System',
+      description: 'Implemented a secure full-stack PHP–MySQL web application with role-based access control, enabling fast, secure access to critical data and reducing police record-retrieval time from hours to minutes.',
+      tech: ['PHP', 'MySQL', 'HTML/CSS', 'JavaScript', 'Bootstrap'],
+      link: 'https://github.com/Aradhyatg17/Criminal-Record-Management-System',
+      image: '🗄️'
     },
     {
-      title: 'Streaming Analytics Dashboard',
-      description: 'Real-time data visualization platform for monitoring streaming metrics with custom reports.',
-      tech: ['React', 'WebSocket', 'AWS', 'Chart.js', 'Node.js'],
+      title: 'Angry Bird 2D Game',
+      description: 'Developed a 2D physics-based Unity game inspired by Angry Birds, featuring slingshot mechanics, destructible structures, and progressively challenging levels.',
+      tech: ['Unity', 'C#', 'Game Development', 'Physics Simulation'],
       link: '#',
-      image: '📊'
+      image: '🐦'
     },
     {
       title: 'Collaborative Code Editor',
-      description: 'Browser-based code editor with live collaboration, syntax highlighting, and multiple language support.',
-      tech: ['React', 'Monaco Editor', 'Websocket', 'Node.js', 'Docker'],
-      link: '#',
+      description: 'Built a real-time collaborative code editor with instant updates, and multi-user editing using web sockets, enabling seamless shared coding and faster team collaboration.',
+      tech: ['React', 'Monaco Editor', 'Websocket', 'Node.js'],
+      link: 'https://github.com/piyushs11/realtime-code-editor',
       image: '📝'
     },
-    {
-      title: 'Machine Learning API',
-      description: 'REST API for machine learning models with model versioning, performance tracking, and documentation.',
-      tech: ['Python', 'FastAPI', 'TensorFlow', 'PostgreSQL', 'Docker'],
-      link: '#',
-      image: '🤖'
-    }
   ];
 
   return (

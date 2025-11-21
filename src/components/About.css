@@ -24,7 +24,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 60px;
-  align-items: start;
+  align-items: center;
 }
 
 .about-text {
@@ -87,6 +87,20 @@
 .skill-tag:hover {
   background: rgba(102, 126, 234, 0.4);
   transform: translateY(-2px);
+}
+
+.profile-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 40px;
+  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+  transition: all 0.3s ease;
 }
 
 @media (max-width: 768px) {
